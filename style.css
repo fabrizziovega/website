@@ -1,0 +1,27 @@
+
+
+#container{
+    padding: 10px 10%;
+}
+
+#navbar{
+    list-style: none;
+}
+
+#container nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#container nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+#container nav ul li a{
+    text-decoration: none;
+    color: black;
+}
