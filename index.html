@@ -10,20 +10,26 @@
         <title>Fabrizzio Vega</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="main.css">
+
+        <!--Load jQuery-->
+        <script src="jquery-3.6.4.min.js"></script>
+        <!--End Load jQuery-->
     </head>
     <body>
-        <div id="header">
-            <div id="container">
-                <nav>
-                    <a>Fabrizzio Vega</a>
-                    <ul>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href = '#'>Say Hi</a></li>
-                    </ul>
-                </nav>
+        <div id="nav-placeholder">
+
+        </div>
+        <script>
+            $(function(){
+                $("#nav-placeholder").load("nav.html");
+            });
+        </script>
+        <div id="container">
+            <div class="header-text">
+                <h1>Forever Student,<br>Future Researcher,<br>Eventual Teacher</h1>
             </div>
         </div>
+       
     </body>
 </html>
