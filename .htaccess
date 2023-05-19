@@ -1,0 +1,15 @@
+#mod_rewrite starts here
+
+RewriteEngine on
+
+# does not apply to existing directories, check that file name is not equal to name of directory
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+#check for file in directory with .html extension
+
+RewriteCond %{REQUEST_FILENAME}\.html -f 
+
+#if .html file exists in directory, run rule
+
+RewriteRule ^(.*)$ $1.html [NC,L] #ignores case, L sets previous conditions to only apply to this rule
