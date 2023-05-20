@@ -72,13 +72,16 @@ body{
 #header{
     position: static;
 }
+
 #container{
     padding: 10px 10%;
-    display: flex;
 }
 
-#container div{
+#container_index{
     padding: 10px 10%;
+}
+
+#container_index div{
     display: inline-block;
 }
 
