@@ -78,7 +78,7 @@ body{
 }
 
 #container_index{
-    padding: 10px 10%;
+    padding: 10px 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -91,6 +91,10 @@ body{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+#container_contact div{
+    display: inline-block;
 }
 
 #container_index div{
