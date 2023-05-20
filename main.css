@@ -85,6 +85,14 @@ body{
     flex-wrap: wrap;
 }
 
+#container_contact{
+    padding: 10px 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 #container_index div{
     display: inline-block;
 }
