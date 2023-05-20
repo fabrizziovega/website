@@ -79,6 +79,10 @@ body{
 
 #container_index{
     padding: 10px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 #container_index div{
