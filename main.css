@@ -97,6 +97,17 @@ body{
     display: inline-block;
 }
 
+#contact_banner::after{
+    content:'';
+    width: 100%;
+    height: 0.5rem;
+    background: rgb(150, 51, 51);
+    position:absolute;
+    left: 0;
+    bottom: -0.375 rem;
+
+}
+
 #container_index div{
     display: inline-block;
 }
