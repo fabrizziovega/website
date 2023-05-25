@@ -100,11 +100,16 @@ body{
 
 #container_about_left{
     
-    display:inline-block;
+    display: inline-flex;
     width:fit-content;
     width: 47%;
     padding: 4rem 2.5rem;
+    border-bottom: solid 0.5rem rgb(150, 51, 51);
+    height: 45rem;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
 
 
 #container_about_left p{
@@ -112,15 +117,26 @@ body{
     line-height:2rem;
     font-weight:450;
     text-align: justify;
-    margin-bottom: 5rem;
+    display: block;
+}
+
+#about-bottom-paragraph{
+    
 }
 
 #container_about_right{
-    display: inline-block;
+    display: inline-flex;
     background-color: blue;
     width:47%;
+    align-items: center;
+    justify-content: center;
 }
 
+#about-image{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+}
 
 #container_contact{
     padding: 5rem 20%;
